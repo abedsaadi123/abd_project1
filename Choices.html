@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="Choices.css">
+    <title>Abdulaziz</title>
+
+
+
+   
+</head>
+
+<section>
+    <nav>
+        <div class="logo">
+            <h1>Choices</h1>
+        </div>
+        <div class="right">
+            <ul>
+                <li><a href="Books.html">Home</a></li>
+                <li><a href="login.php">Logout</a></li>
+            </ul>
+        </div>
+    </nav>
+</section>
+
+<body>
+    <form>
+        <div class="mb-3">
+            <label for="InputBookName" class="form-label">Book Name:</label>
+            <input type="text" class="form-control" id="value1" />
+        </div>
+        <div class="mb-3">
+            <label for="InputQuantity" class="form-label">Quantity:</label>
+            <input type="text" class="form-control" id="value2" />
+         </div>
+    </form>
+    <form>
+        <input type="button" class="btn btn-primary" onclick="addCost()" value="Add">
+    </form>
+    <table id="abed1" class="table" border="1">
+        <tr>
+            <th scope="col">name</th>
+            <th scope="col">price</th>
+            <th scope="col">quantity</th>
+            <th scope="col">total</th>
+            <th scope="col">delete</th>
+
+        </tr>
+    </table>
+
+    <script src="Choices.js"></script>
+    
+    
+
+</body>
+
+</html>

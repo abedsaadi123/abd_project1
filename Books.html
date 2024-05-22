@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books Site</title>
+    <link rel="stylesheet" href="Books.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+
+<section>
+    <nav>
+        <div class="logo">
+            <h1>Home</h1>
+        </div>
+        <div class="right">
+            <ul>
+                <li><a href="Choices.html">Choices</a></li>
+                <li><a href="login.php">Logout</a></li>
+            </ul>
+        </div>
+    </nav>
+</section>
+
+<div class="searchbar">
+    <div class="news_card">
+        <input type="search" placeholder="Enter Books name here" id="searchInput">
+        <button onclick="onSearch()">Search</button>
+    </div>
+</div>
+
+<div class="List">
+    <div class="books">
+        <h1>Books List</h1>
+        <div class="box row" id="myBox">
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>Designed By <span>Abdulaziz Abdulaziz</span></p>
+</footer>
+
+<script src="Books.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+  
+</body>
+</html>
